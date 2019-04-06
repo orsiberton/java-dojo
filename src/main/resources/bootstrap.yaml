@@ -1,0 +1,33 @@
+spring:
+  main:
+    banner-mode: "off"
+  application:
+    name: java-dojo
+    version: ${APP_VERSION:-1}
+  cloud:
+    config:
+      enabled: false
+      discovery:
+        enabled: false
+management:
+  endpoints:
+    web:
+      exposure.include: info, health, env
+      base-path: /
+    health.show-details: always
+
+dojo:
+  dummy:
+    favoriteSongs:
+      - artist: Daft Punk
+        song: Lose Yourself to Dance
+        year: 2013
+      - artist: John Mayer
+        song: Neon
+        year: 2001
+      - artist: Eric Clapton
+        song: Layla
+        year: 1970
+      - artist: Soundgarden
+        song: Black Rain
+        year: 2010
