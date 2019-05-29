@@ -31,3 +31,29 @@ dojo:
       - artist: Soundgarden
         song: Black Rain
         year: 2010
+    classic:
+      - artist: Queen
+        song: Bohemian rhapsody
+        year: 1975
+      - artist: Lynyrd Skynyrd
+        song: Free bird
+        year: 1973
+      - artist: Nirvana
+        song: Nirvana Smells Like Teen Spirit
+        year: 1991
+      - artist: Nirvana
+        song: Come as You Are
+        year: 1991
+    twoThousands:
+      - artist: Green Day
+        song: Boulevard Of Broken Dreams
+        year: 2004
+      - artist: Linkin Park
+        song: In the End
+        year: 2003
+      - artist: Linkin Park
+        song: Numb
+        year: 2003
+      - artist: Linkin Park
+        song: new divide
+        year: 2007

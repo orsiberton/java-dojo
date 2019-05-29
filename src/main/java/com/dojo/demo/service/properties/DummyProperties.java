@@ -17,5 +17,7 @@ import java.util.List;
 public class DummyProperties {
 
     private List<SongProperties> favoriteSongs = new ArrayList<>();
+    private List<SongProperties> classic = new ArrayList<>();
+    private List<SongProperties> twoThousands = new ArrayList<>();
 
 }
